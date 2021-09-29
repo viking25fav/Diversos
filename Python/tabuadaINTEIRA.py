@@ -1,6 +1,6 @@
 nome = input("BEM VINDO! Qual o seu nome? ")
 print(nome)
-tabuada = int(input("Qual taboada você deseja ver? "))
+tabuada = int(input("Qual tabUada você deseja ver? "))
 a = 0
 b = 11
 while a < b:
