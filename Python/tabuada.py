@@ -9,6 +9,6 @@ chute = int(input("Qual o seu chute para o resultado? "))
 if chute == (a * b):
      print("PARABÉNS!!! VOCÊ ACERTOU!!! O RESULTADO É: ", a * b)
 else:
-     print("ERROU TROUXÃO! APRENDE! O RESULTADO DESSA TABUADA É: ", a * b)
+     print("ERROU! O RESULTADO DESSA TABUADA É: ", a * b)
 
 
