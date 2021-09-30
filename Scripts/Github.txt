@@ -1,0 +1,55 @@
+
+# Configuração inicial de login
+
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+
+
+# Para inicializar o repositório:
+
+git init
+
+
+# Buscar atualizações no Repositório
+git pull origin master
+
+
+# Adicionar um arquivo ao controle do Git
+git add teste.txt
+
+
+# Gravar 
+git commit -m ‘Capítulo 01’
+
+
+# Adicionando um reposiório localmente
+git remote add origin https://github.com/dsacademybr/DeepLearningJava.git
+
+
+# "Empurrando" as alterações para o Github
+git push origin master
+
+
+# Remover o arquivo do controle do git
+sudo git rm file
+
+
+# Track e arquivos grandes 
+git lfs track "*.psd"
+
+
+# Para limpar possíveis erros:
+
+git reset --mixed origin/master
+git add .
+git commit -m "Update Repo"
+git push origin master
+
+
+# Para clonar o repositório
+
+git clone https://github.com/dsacademybr/DeepLearningJava.git
+
+
+
+
